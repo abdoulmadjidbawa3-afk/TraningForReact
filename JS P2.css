@@ -1,0 +1,32 @@
+.card{
+    max-width: 400px;
+    background-color: azure;
+    padding: 25px 10px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    margin: auto;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+#btn{
+    padding: 8px;
+    border-radius: 8px;
+    background: #fff;
+    transition: all 0.3s ease;
+}
+
+#btn:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    background: rgb(212, 255, 255);
+}
+
+#contenu{
+   m
+    
+}
