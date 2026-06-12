@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+nav ul {
+    display: flex;
+    
+    align-items: center;
+}
+
+.hero{
+    padding: 60px 20px ;
+    
+}
+.container{
+    display: flex;
+    gap: 40px;
+}
+
+
+.cartes{
+    display: flex;
+    gap: 30px;
+}
+
+.card{
+    padding: 15px;
+    border: 1px solid #000;
+}
+#photo{
+    max-width: 100%;
+}
+@media (max-width:768px){
+
+    .container{
+        flex-direction:column;
+    }
+    .cartes{
+        flex-direction: column;
+    }
+}

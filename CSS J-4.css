@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    padding: 15px 5px 15px;
+    background-color: aliceblue;
+    position: relative;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+
+.badge{
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+#btn-haut{
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.btn-profil{
+    transition: all 0.3 ease;
+}
+.btn-profil:hover{
+    transform: scale(1.1);
+}
+img{
+    max-width: 250px;
+    height: auto;
+    margin: 10px 9px;
+    transition: all 0.3 ease;
+}
+img:hover{
+    transform: rotate(5deg);
+}
+
+h2{
+    margin: 0 5px;
+}
+
+
+

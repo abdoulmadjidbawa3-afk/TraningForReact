@@ -1,0 +1,43 @@
+body{
+    background-color: floralwhite ;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header{
+    background-color: #fff;
+    padding: 15px 10px 10px;
+    text-align: center;
+}
+
+nav ul li a{
+    color:#000 ;
+    text-decoration: none;
+}
+
+section{
+    border: 1px solid #ccc;
+    padding: 15px 10px 10px;
+    margin: 0 15px;
+    
+}
+
+table{
+    border-collapse: collapse;
+    border: 2px solid #000;
+   
+
+}
+
+td, th{
+    border: 2px solid gray;
+    padding: 8px;
+}
+
+button{
+    background-color: #000;
+    color: #fff;
+    padding: 8px;
+    border: none;
+    
+}
