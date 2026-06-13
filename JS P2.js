@@ -27,10 +27,7 @@ btn.addEventListener("click", function genererCitation(){
     }
 
         else{
-            contenu.textContent = "Plus de citation pour aujourd'hui";
+            contenu.textContent = "Plus de citation pour aujourd'hui.";
     }
-
-        
-
 
 });
